@@ -1,6 +1,7 @@
 export function Menu() {
   return (
     <svg
+      class="sm:hidden"
       width="28"
       height="28"
       viewBox="0 0 24 24"
