@@ -1,0 +1,18 @@
+export const logoItems = [
+  { id: 1, link: "/Logos/Tech.png" },
+  { id: 2, link: "/Logos/Tech-1.png" },
+  { id: 3, link: "/Logos/Tech-2.png" },
+  { id: 4, link: "/Logos/Tech-3.png" },
+  { id: 5, link: "/Logos/Tech-4.png" },
+  { id: 6, link: "/Logos/Tech-5.png" },
+  { id: 7, link: "/Logos/Tech-6.png" },
+  { id: 8, link: "/Logos/Tech-7.png" },
+  { id: 9, link: "/Logos/Tech-8.png" },
+  { id: 10, link: "/Logos/Tech-9.png" },
+  { id: 11, link: "/Logos/Tech-10.png" },
+  { id: 12, link: "/Logos/Tech-11.png" },
+  { id: 13, link: "/Logos/Tech-12.png" },
+  { id: 14, link: "/Logos/Tech-13.png" },
+  { id: 15, link: "/Logos/Tech-14.png" },
+  { id: 16, link: "/Logos/Tech-15.png" },
+];

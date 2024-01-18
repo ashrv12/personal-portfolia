@@ -6,11 +6,11 @@ import { Figma } from "../components/icons/figma-logo";
 
 export function Head() {
   return (
-    <div class="flex items-center flex-col">
+    <div class="sm:h-screen flex items-center sm:justify-center flex-col">
       <div class="sm:hidden my-16 flex justify-center">
         <img src="/photos/mobileprofile.png" alt="profile" />
       </div>
-      <div class="w-11/12 flex flex-col justify-between h-96 md:w-9/12 sm:flex-row sm:mt-24 sm:items-center">
+      <div class="w-11/12 flex flex-col justify-between h-96 md:w-9/12 sm:flex-row sm:items-center">
         <div class="h-full flex flex-col justify-between">
           <h1 class="font-inter text-4xl lg:text-5xl font-semibold">
             Hi, I’m Sagar 👋
@@ -39,7 +39,7 @@ export function Head() {
           </div>
         </div>
         <img
-          class="hidden sm:block"
+          class="hidden ml-8 sm:block"
           src="/photos/Bigprofile.png"
           alt="profile"
         />

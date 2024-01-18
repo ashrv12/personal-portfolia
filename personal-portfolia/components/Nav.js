@@ -1,5 +1,7 @@
 import { Menu } from "../components/icons/triple-line.jsx";
 import { Darkmode } from "../components/icons/darkmode.jsx";
+import { menuItems } from "../data/menuItems.js";
+import { MainMenu } from "@/components/MainMenu.jsx";
 
 export function Navigation() {
   return (
@@ -9,12 +11,7 @@ export function Navigation() {
 
         <Menu />
         <div class="hidden sm:flex gap-4 items-center font-inter">
-          <div class="flex gap-4">
-            <a class="font-inter text-slate-600">About</a>
-            <a class="font-inter text-slate-600">Work</a>
-            <a class="font-inter text-slate-600">Testimonials</a>
-            <a class="font-inter text-slate-600">Contact</a>
-          </div>
+          <MainMenu items={menuItems} />
           <div class="w-0 border h-7"></div>
           <Darkmode />
           <button class="bg-black text-slate-100 py-1 px-2 rounded-lg">
