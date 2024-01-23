@@ -9,7 +9,7 @@ import { Footer } from "../components/Footer.js";
 
 export default function Home() {
   return (
-    <div>
+    <div class="dark:bg-gray-950">
       <Navigation />
       <Head />
       <Aboutme />

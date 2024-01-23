@@ -16,3 +16,22 @@ export const logoItems = [
   { id: 15, link: "/Logos/Tech-14.png" },
   { id: 16, link: "/Logos/Tech-15.png" },
 ];
+
+export const logoItemsDark = [
+  { id: 1, link: "/photos/darkmode/darkmodeicons/Desktop/Tech.png" },
+  { id: 2, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-1.png" },
+  { id: 3, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-2.png" },
+  { id: 4, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-3.png" },
+  { id: 5, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-4.png" },
+  { id: 6, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-5.png" },
+  { id: 7, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-6.png" },
+  { id: 8, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-7.png" },
+  { id: 9, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-8.png" },
+  { id: 10, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-9.png" },
+  { id: 11, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-10.png" },
+  { id: 12, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-11.png" },
+  { id: 13, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-12.png" },
+  { id: 14, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-13.png" },
+  { id: 15, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-14.png" },
+  { id: 16, link: "/photos/darkmode/darkmodeicons/Desktop/Tech-15.png" },
+];

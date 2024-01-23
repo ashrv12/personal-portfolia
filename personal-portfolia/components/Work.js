@@ -8,7 +8,7 @@ export function Work() {
   return (
     <div class="font-inter my-16 text-gray-600 flex flex-col items-center">
       <Chip label="Work" />
-      <h2 class="w-11/12 text-center mt-4 text-lg">
+      <h2 class="w-11/12 text-center mt-4 text-lg dark:text-slate-100">
         Some of the noteworthy projects I have built:
       </h2>
       <div class="mt-6 gap-y-6 flex flex-col">
@@ -24,7 +24,6 @@ export function Work() {
         {/* landscape start */}
         <Naurr />
         {/* landscape end */}
-
         {/* box */}
         <Testbox />
         {/* end of box */}
