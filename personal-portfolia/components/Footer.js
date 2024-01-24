@@ -1,8 +1,8 @@
 export function Footer() {
   return (
-    <div class="h-68 bg-gray-50 flex justify-center items-center">
+    <div class="h-68 bg-gray-50 dark:bg-gray-900 flex justify-center items-center">
       <div class="flex justify-center">
-        <h2 class="text-sm sm:text-md text-center">
+        <h2 class="text-sm sm:text-md text-center dark:text-slate-200">
           <span class="font-bold">&copy;</span> 2023 |{" "}
           <a
             class="underline"

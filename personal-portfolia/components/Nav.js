@@ -76,9 +76,16 @@ function MobileMenu() {
           <Darkmode />
           <Moon />
         </div>
-        <button class="text-lg mt-3 w-10/12 bg-black text-slate-100 dark:bg-slate-100 dark:text-gray-900 py-1 px-2 rounded-xl">
-          Download CV
-        </button>
+        <a
+          href="/photos/raccoon.jpeg"
+          download="raccoon-image"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button class="text-lg mt-3 w-10/12 bg-black text-slate-100 dark:bg-slate-100 dark:text-gray-900 py-1 px-2 rounded-xl">
+            Download CV
+          </button>
+        </a>
       </div>
     </>
   );
