@@ -63,7 +63,7 @@ export function Head() {
           alt="profile"
         />
         <img
-          class="h-360 w-80 hidden sm:dark:flex ml-8 sm:block"
+          class="h-360 w-80 hidden dark:flex ml-8 sm:hidden"
           src="/photos/darkmode/darkheadbig.png"
           alt="profile"
         />

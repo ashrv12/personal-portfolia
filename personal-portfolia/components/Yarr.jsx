@@ -4,7 +4,7 @@ import { Share, ShareDark } from "./icons/share";
 
 export function Yarr() {
   return (
-    <div class="hidden lg:flex w-1150 h-480 drop-shadow-lg bg-gray-50 dark:bg-gray-700 rounded-2xl overflow-hidden">
+    <div class="hidden lg:flex w-1024 h-480 drop-shadow-lg bg-gray-50 dark:bg-gray-700 rounded-2xl overflow-hidden">
       <div class="h-full w-1/2 flex justify-center items-center">
         <img class="w-5/6 h-auto" src="/photos/example.png" alt="surprise" />
       </div>

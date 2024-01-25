@@ -12,7 +12,7 @@ export function Aboutme() {
             alt="bigBOI"
           />
           <img
-            class="h-130 hidden md:flex md:dark:flex"
+            class="h-130 hidden md:hidden md:dark:flex"
             src="/photos/darkmode/darkmodeabtbig.png"
             alt="bigBOI"
           />

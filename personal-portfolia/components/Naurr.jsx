@@ -3,7 +3,7 @@ import { ChipList } from "./ChipList";
 import { Share, ShareDark } from "./icons/share";
 export function Naurr() {
   return (
-    <div class="hidden lg:flex w-1150 h-480 drop-shadow-lg dark:bg-gray-700 bg-gray-50 rounded-2xl overflow-hidden">
+    <div class="hidden lg:flex w-1024 h-480 drop-shadow-lg dark:bg-gray-700 bg-gray-50 rounded-2xl overflow-hidden">
       <div class="h-full w-1/2 bg-white dark:bg-gray-800 flex flex-col items-center justify-around">
         <div class="w-5/6 mt-8">
           <h1 class="font-bold text-slate-950 text-lg dark:text-slate-100">
