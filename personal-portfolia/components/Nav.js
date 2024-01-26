@@ -1,12 +1,12 @@
 import { Menu } from "../components/icons/triple-line.jsx";
 import { Darktriple } from "../components/icons/triple-line.jsx";
-// import { Darkmode } from "../components/icons/darkmode.jsx";
+import { Darkmode } from "../components/icons/darkmode.jsx";
 import { menuItems } from "../data/menuItems.js";
 import { MainMenu } from "@/components/MainMenu.jsx";
 import { MainMenuCol } from "@/components/MainMenu.jsx";
 import { useState } from "react";
 import { Ex } from "@/components/icons/x-icon.jsx";
-// import { Moon } from "../components/icons/moon.jsx";
+import { Moon } from "../components/icons/moon.jsx";
 import { ThemeChanger } from "./Theme.jsx";
 
 export function Navigation() {

@@ -30,8 +30,13 @@ export function ThemeChanger() {
 
   return (
     <button onClick={changeTheme}>
-      {theme === "light" && <MdOutlineWbSunny />}
-      {theme === "dark" && <LuMoonStar />}
+      {theme === "dark" ? (
+        <div class="text-slate-200">
+          <LuMoonStar />
+        </div>
+      ) : (
+        <MdOutlineWbSunny />
+      )}
     </button>
   );
 }
